@@ -256,7 +256,7 @@ Do as you wish with telegra.ph module!
 • This Command Is Available in goups and pms
 • This Command Can be used by everyone"""
 
-        PURGE_TXT = """<b>Purge</b>
+    PURGE_TXT = """<b>Purge</b>
     
 Delete A Lot Of Messages From Groups! 
     
