@@ -6,7 +6,8 @@ cwd = os.getcwd()
 
 # taking the movie input 
 
-@Client.on_message(filters.text & filters.command(["Sub"]))
+@Client.on_message(filters.command(["Sub"]))
+async def subscene(client, message):
 movie_name = [s for s in re.split("[^0-9a-zA-Z]",input("enter the movie name : \n"))]
 movie_name = list(filter(lambda a: a != '', movie_name))
 m1 = ' '.join(map(str,movie_name))
