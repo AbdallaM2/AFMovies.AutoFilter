@@ -910,7 +910,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⚜️ 𝙾𝚆𝙽𝙴𝚁', url='https://t.me/a_magdy7')
         ], [
             InlineKeyboardButton('🏠 𝗛𝗢𝗠𝗘', callback_data='start'),
-            InlineKeyboardButton('🚫 𝗖𝗟𝗢𝗦𝗘', callback_data='close_data')
+            InlineKeyboardButton('𝗖𝗟𝗢𝗦𝗘 🚫', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)        
         await query.message.edit_text(
