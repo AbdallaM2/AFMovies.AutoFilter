@@ -53,8 +53,8 @@ RemoveBG_API = environ.get("RemoveBG_API", "")
 WELCOM_PIC = environ.get("WELCOM_PIC", "")
 WELCOM_TEXT = environ.get("WELCOM_TEXT", "")
 PMFILTER = bool(environ.get("PMFILTER", False))
-G_FILTER = bool(environ.get("G_FILTER", True))
-BUTTON_LOCK = bool(environ.get("BUTTON_LOCK", True))
+G_FILTER = bool(environ.get("G_FILTER", False))
+BUTTON_LOCK = bool(environ.get("BUTTON_LOCK", False))
 
 # Others
 IMDB_DELET_TIME = int(environ.get('IMDB_DELET_TIME', "83000"))
