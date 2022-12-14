@@ -907,9 +907,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "how":
         buttons = [[
-            InlineKeyboardButton('!لماذا المشاهدة بترجمة خارجية افضل', callback_data='nhow')
+            InlineKeyboardButton('🪄 لماذا المشاهدة بترجمة خارجية افضل !', callback_data='nhow')
         ], [
-            InlineKeyboardButton('👩‍🦯 𝗕𝗔𝗖𝗞', callback_data='start')
+            InlineKeyboardButton('👩‍🦯 𝗕𝗔𝗖𝗞', callback_data='start'),
+            InlineKeyboardButton('🔰 اضافة الترجمة', callback_data='howadd')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)        
         await query.message.edit_text(
@@ -942,11 +943,21 @@ async def cb_handler(client: Client, query: CallbackQuery):
        )
     elif query.data == "nhow":
         buttons = [[
-            InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='how')
+            InlineKeyboardButton('👩‍🦯 𝗕𝗔𝗖𝗞', callback_data='how')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.NHOW_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+       )
+    elif query.data == "howadd":
+        buttons = [[
+            InlineKeyboardButton('👩‍🦯 𝗕𝗔𝗖𝗞', callback_data='how')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.HOWADD_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
