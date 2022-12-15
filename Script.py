@@ -13,11 +13,11 @@ class script(object):
 
     NHOW_TXT = """<b><i>𝟷 فيديو خام بدون لوجو\n𝟸 جودة اصلية و حجم قليل مقارنة بالمواقع\n𝟹 جودة صوت افضل\n𝟺 تشغيل اكثر من ترجمة في نفس الوقت\n𝟻 اختيار الترجمة المناسبة (المترجم المفضل)\n𝟼 مسلسلات Netflix , AppleTV , Prime تأتي بأكثر من 30 ترجم\n<b><i>"""
 
-    HOWADD_TXT = """<b><i> <a href=https://subscene.com/><b>مــوقـع تحـمـيل الـتـرجـمـة</b></a>
+    HOWADD_TXT = """<b><i>❍ <a href=https://subscene.com/><b>مــوقـع تحـمـيل الـتـرجـمـة</b></a>
 
-<a href=http://telegra.ph/Muxed-English-Subtitles-12-29-9><b>❍ بــرامــج الـمــشـاهــدة</b></a>
+❍ <a href=http://telegra.ph/Muxed-English-Subtitles-12-29-9><b>بــرامــج الـمــشـاهــدة</b></a>
 
-<a href=https://telegra.ph/%D8%B7%D8%B7%D8%B1%D9%8A%D8%A9-%D8%AF%D9%85%D8%AC-%D8%A7%D9%84%D8%AA%D8%B1%D8%AC%D9%85%D8%A9-11-22><b>❍ اضـــافــة الـتــرجــمــة</b></a>"""
+❍ <a href=https://telegra.ph/%D8%B7%D8%B7%D8%B1%D9%8A%D8%A9-%D8%AF%D9%85%D8%AC-%D8%A7%D9%84%D8%AA%D8%B1%D8%AC%D9%85%D8%A9-11-22><b>اضـــافــة الـتــرجــمــة</b></a>"""
 
     FILE_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 𝐌𝐨𝐝𝐮𝐥𝐞../
 
