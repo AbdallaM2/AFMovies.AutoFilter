@@ -827,7 +827,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("🤨 Curiosity is a little more, isn't it? 😁", show_alert=True)
     elif query.data == "start":                        
         buttons = [[
-            InlineKeyboardButton('💯 كيفية الاستخدام 💯', callback_data='how')
+            InlineKeyboardButton('💯 𝙷𝙾𝚆 𝚃𝙾 𝚄𝚂𝙴 & كيفية الاستخدام 💯', callback_data='how')
         ], [
             InlineKeyboardButton('🔍 𝚂𝙴𝙰𝚁𝙲𝙷', url='https://t.me/ArrowFlix'),
             InlineKeyboardButton('📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂', url='https://t.me/TorrentSeriess')
@@ -910,7 +910,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🪄 لماذا المشاهدة بترجمة خارجية افضل !', callback_data='nhow')
         ], [
             InlineKeyboardButton('👩‍🦯 𝗕𝗔𝗖𝗞', callback_data='start'),
-            InlineKeyboardButton('🔰 اضافة الترجمة', callback_data='howadd')
+            InlineKeyboardButton('🔰 اضـافـة التـرجـمة', callback_data='howadd')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)        
         await query.message.edit_text(
