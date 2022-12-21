@@ -57,7 +57,7 @@ G_FILTER = bool(environ.get("G_FILTER", False))
 BUTTON_LOCK = bool(environ.get("BUTTON_LOCK", False))
 
 # Others
-IMDB_DELET_TIME = int(environ.get('IMDB_DELET_TIME', "83000"))
+IMDB_DELET_TIME = int(environ.get('IMDB_DELET_TIME', "20"))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'ArrowFlix Discussion | Series & Movies')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
