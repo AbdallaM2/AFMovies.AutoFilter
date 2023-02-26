@@ -530,7 +530,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.edit_message_media(
-            InputMediaPhoto(random.choice(PICS), START_MESSAGE.format(user=query.from_user.mention, bot=temp.B_LINK), enums.ParseMode.HTML),
+            InputMediaPhoto(random.choice(PICS), script.START_TXT, enums.ParseMode.HTML),
             reply_markup=reply_markup,
         )
     elif query.data == "photo":
@@ -607,11 +607,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('👩‍🦯 𝗕𝗔𝗖𝗞', callback_data='start'),
             InlineKeyboardButton('🔰 اضـافـة التـرجـمة', callback_data='howadd')
         ]]
-        reply_markup = InlineKeyboardMarkup(buttons)        
-        await query.message.edit_text(
-            text=script.HOW_TXT.format(temp.B_NAME),
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.edit_message_media(
+            InputMediaPhoto(random.choice(PICS), script.HOW_TXT, enums.ParseMode.HTML),
             reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "about":
         buttons = [[
@@ -620,31 +619,28 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🏠 𝗛𝗢𝗠𝗘', callback_data='start'),
             InlineKeyboardButton('𝗖𝗟𝗢𝗦𝗘 🚫', callback_data='close_data')
         ]]
-        reply_markup = InlineKeyboardMarkup(buttons)        
-        await query.message.edit_text(
-            text=script.ABOUT_TXT.format(temp.B_NAME),
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.edit_message_media(
+            InputMediaPhoto(random.choice(PICS), script.ABOUT_TXT, enums.ParseMode.HTML),
             reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "source":
         buttons = [[
             InlineKeyboardButton('👩‍🦯 𝗕𝗔𝗖𝗞', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.SOURCE_TXT,
+        await query.edit_message_media(
+            InputMediaPhoto(random.choice(PICS), script.source_TXT, enums.ParseMode.HTML),
             reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
        )
     elif query.data == "nhow":
         buttons = [[
             InlineKeyboardButton('👩‍🦯 𝗕𝗔𝗖𝗞', callback_data='how')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.NHOW_TXT,
+        await query.edit_message_media(
+            InputMediaPhoto(random.choice(PICS), script.NHOW_TXT, enums.ParseMode.HTML),
             reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
        )
     elif query.data == "howadd":
         buttons = [[
