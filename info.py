@@ -52,9 +52,9 @@ FORCE_SUB_TEXT = environ.get('FORCE_SUB_TEXT', '𝑱𝒐𝒊𝒏 𝑶𝒖𝒓 �
 RemoveBG_API = environ.get("RemoveBG_API", "")
 WELCOM_PIC = environ.get("WELCOM_PIC", "")
 WELCOM_TEXT = environ.get("WELCOM_TEXT", "")
-PMFILTER = bool(environ.get("PMFILTER", False))
-G_FILTER = bool(environ.get("G_FILTER", False))
-BUTTON_LOCK = bool(environ.get("BUTTON_LOCK", False))
+PMFILTER = environ.get('PMFILTER', "True")
+G_FILTER = environ.get("G_FILTER", "True")
+BUTTON_LOCK = environ.get("BUTTON_LOCK", "True")
 
 # Others
 IMDB_DELET_TIME = int(environ.get('IMDB_DELET_TIME', "86000"))
