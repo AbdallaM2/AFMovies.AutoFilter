@@ -648,7 +648,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('👩‍🦯 𝗕𝗔𝗖𝗞', callback_data='how')
         ]]
-        ]]
         reply_markup = InlineKeyboardMarkup(buttons)        
         await query.edit_message_media(
             InputMediaPhoto(random.choice(PICS), script.HOWADD_TXT.format(temp.B_NAME), enums.ParseMode.HTML),
