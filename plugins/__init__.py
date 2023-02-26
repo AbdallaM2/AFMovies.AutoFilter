@@ -12,6 +12,6 @@ async def web_server():
     return web_app
 
 
-__repo__ = "https://github.com/MrMKN/PROFESSOR-BOT"
+__repo__ = "https://github.com/AbdallaM01/autofilter.extra"
 __license__ = "GNU GENERAL PUBLIC LICENSE V2"
-__copyright__ = "Copyright (C) 2023-present MrMKN <https://github.com/MrMKN>"
+__copyright__ = "Copyright (C) 2023-present Abdalla <https://github.com/AbdallaM01>"
