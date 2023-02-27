@@ -66,6 +66,7 @@ async def next_page(bot, query):
             InlineKeyboardButton(text="⚡𝐂𝐡𝐞𝐜𝐤 𝐏𝐌⚡", url='t.me/ArrowFlixBot')
         ]
     )
+
     if 0 < offset <= 10:
         off_set = 0
     elif offset == 0:
@@ -163,6 +164,7 @@ async def pm_next_page(bot, query):
             InlineKeyboardButton(text="⚡𝐂𝐡𝐞𝐜𝐤 𝐏𝐌⚡", url='t.me/ArrowFlixBot')
         ]
     )
+
     if 0 < offset <= 10:
         off_set = 0
     elif offset == 0:
