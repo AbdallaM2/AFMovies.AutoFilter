@@ -62,7 +62,7 @@ async def next_page(bot, query):
             ]
             for file in files
         ]
-    btn.insert(10,
+    btn.insert(0,
         [
             InlineKeyboardButton(text="⚡𝐂𝐡𝐞𝐜𝐤 𝐏𝐌⚡", url='t.me/ArrowFlixBot')
         ]
