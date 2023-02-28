@@ -62,7 +62,7 @@ async def pm_AutoFilter(client, msg, pmspoll=False):
             ]
             for file in files
         ]
-    btn.insert(10,
+    btn.insert(0,
         [
             InlineKeyboardButton(text="⚡𝐂𝐡𝐞𝐜𝐤 𝐏𝐌⚡", url='t.me/ArrowFlixBot')
         ]
