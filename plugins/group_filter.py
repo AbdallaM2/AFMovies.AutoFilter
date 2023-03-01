@@ -133,11 +133,11 @@ async def auto_filter(client, msg, spoll=False):
                     InlineKeyboardButton(text=f"{get_size(file.file_size)}", callback_data=f'{pre}#{req}#{file.file_id}')] for file in files ] 
     btn.insert(0,
         [
-                InlineKeyboardButton(f'😇 Info', 'tips'),
-                InlineKeyboardButton(f'😇 Info', 'tips')
+                InlineKeyboardButton(f'sᴇʀɪᴇs', 'ɪɴꜰᴏ'),
+                InlineKeyboardButton(f'ɪɴꜰᴏ', 'sᴇʀɪᴇs')
         ]
     )
-    btn.insert(10,
+    btn.insert(11,
         [
             InlineKeyboardButton(text="⚡𝐂𝐡𝐞𝐜𝐤 𝐏𝐌⚡", url='t.me/ArrowFlixBot')
         ]
