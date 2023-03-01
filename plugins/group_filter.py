@@ -133,9 +133,8 @@ async def auto_filter(client, msg, spoll=False):
                     InlineKeyboardButton(text=f"{get_size(file.file_size)}", callback_data=f'{pre}#{req}#{file.file_id}')] for file in files ] 
     btn.insert(0,
         [
-                InlineKeyboardButton(f'sᴇʀɪᴇs', 'ɪɴꜰᴏ'),
-                InlineKeyboardButton(f'ᴍᴏᴠɪᴇs', 'ᴍᴏᴠɪᴇs'),
-                InlineKeyboardButton(f'ɪɴꜰᴏ', 'sᴇʀɪᴇs')
+                InlineKeyboardButton(f'ᴍᴏᴠɪᴇs', 'ɪɴꜰᴏ'),
+                InlineKeyboardButton(f'ɪɴꜰᴏ', 'ᴍᴏᴠɪᴇs')
         ]
     )
     btn.insert(11,
