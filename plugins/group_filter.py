@@ -131,6 +131,11 @@ async def auto_filter(client, msg, spoll=False):
         else:
             btn = [[InlineKeyboardButton(text=f"{file.file_name}", callback_data=f'{pre}#{req}#{file.file_id}'),
                     InlineKeyboardButton(text=f"{get_size(file.file_size)}", callback_data=f'{pre}#{req}#{file.file_id}')] for file in files ] 
+    btn.insert(10,
+        [
+            InlineKeyboardButton(text="⚡𝐂𝐡𝐞𝐜𝐤 𝐏𝐌⚡", url='t.me/ArrowFlixBot')
+        ]
+    )
 
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
