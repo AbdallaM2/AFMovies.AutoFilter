@@ -520,7 +520,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == 'ᴍᴏᴠɪᴇs':
         await query.answer("           ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ꜰᴏʀᴍᴀᴛ\n              ▔▔▔▔▔▔▔▔▔\nɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴀ ᴍᴏᴠɪᴇ ꜰᴏʟʟᴏᴡ ᴛʜᴇ ꜰᴏʀᴍᴀᴛ\n(لـلـبــحـث عـن فيلـم اِتـبـع الـتـنـسـيـق الآتــي)\nThe Godfather 1972\nThe Dark Knight 2008 1080p\nDune 2021 720p x265\n\n🚫➠ ᴅᴏɴᴛ ᴜsᴇ ':_(,./)&-/nبدون استخدام اي رمز", True)
     elif query.data == 'ɪɴꜰᴏ':
-        await query.answer("𝖳𝗁𝗂𝗌 𝖬𝖾𝗌𝗌𝖺𝗀𝖾 𝖶𝗂𝗅𝗅 𝖡𝖾 𝖣𝖾𝗅𝖾𝗍𝖾𝖽 𝖠𝖿𝗍𝖾𝗋 5 𝖬𝗂𝗇𝗎𝗍𝖾𝗌 𝗍𝗈 𝖯𝗋𝖾𝗏𝖾𝗇𝗍 𝖢𝗈𝗉𝗒𝗋𝗂𝗀𝗁𝗍 !\n\n𝖳𝗁𝖺𝗇𝗄 𝖸𝗈𝗎 𝖥𝗈𝗋 𝖴𝗌𝗂𝗇𝗀 𝖬𝖾 😊\n\n\n𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 𝖯𝖨𝖱𝖮", True)
+        await query.answer("           ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ꜰᴏʀᴍᴀᴛ\n              ▔▔▔▔▔▔▔▔▔\nɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴀ ᴍᴏᴠɪᴇ ꜰᴏʟʟᴏᴡ ᴛʜᴇ ꜰᴏʀᴍᴀᴛ\n(لـلـبــحـث عـن فيلـم اِتـبـع الـتـنـسـيـق الآتــي)\nThe Godfather 1972\nThe Dark Knight 2008 1080p\nDune 2021 720p x265\n\n🚫➠ ᴅᴏɴᴛ ᴜsᴇ ':_(,./)&-/nبدون استخدام اي رمز", True)
     elif query.data == "start":                        
         buttons = [[
             InlineKeyboardButton('💯 𝙷𝙾𝚆 𝚃𝙾 𝚄𝚂𝙴 & كيفية الاستخدام 💯', callback_data='how')
