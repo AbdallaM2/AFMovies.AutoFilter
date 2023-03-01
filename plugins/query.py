@@ -518,9 +518,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "pages":
         await query.answer("🤨 Curiosity is a little more, isn't it? 😁", show_alert=True)
     elif query.data == 'ᴍᴏᴠɪᴇs':
-        await query.answer("ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ꜰᴏʀᴍᴀᴛ\n▔▔▔▔▔▔▔▔▔▔▔\nɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴀ ᴍᴏᴠɪᴇ ꜰᴏʟʟᴏᴡ ᴛʜᴇ ꜰᴏʀᴍᴀᴛ\n(للبحث عن فيلم اِتبع التنسيق الآتي)\nThe Godfather 1972\nThe Dark Knight 2008 1080p\nDune 2021 720p x265\n\n🚫➠ ᴅᴏɴᴛ ᴜsᴇ ':_(,./)&-", True)
-    elif query.data == 'ɪɴꜰᴏ':
         await query.answer("⚠️ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ⚠️\nɪꜰ ʏᴏᴜ ᴅᴏ ɴᴏᴛ sᴇᴇ ᴛʜᴇ ʀᴇǫᴜᴇsᴛ ᴍᴏᴠɪᴇ ꜰɪʟᴇ,\nɢᴏ ᴛᴏ ɢᴏᴏɢʟᴇ ➠ ᴛʏᴘᴇ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ➠ ᴄᴏᴘʏ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ ➠ ᴘᴀsᴛᴇ ʜᴇʀᴇ\nاذا لم تجد الفيلم,\nاذهب الي جوجل ⇦ اكتب الاسم ⇦ انسخ الاسم الصحيح ⇦ الصقه هنا", True)
+    elif query.data == 'ɪɴꜰᴏ':
+        await query.answer("ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ꜰᴏʀᴍᴀᴛ\n▔▔▔▔▔▔▔▔▔▔▔\nɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴀ ᴍᴏᴠɪᴇ ꜰᴏʟʟᴏᴡ ᴛʜᴇ ꜰᴏʀᴍᴀᴛ\n(للبحث عن فيلم اِتبع التنسيق الآتي)\nThe Godfather 1972\nThe Dark Knight 2008 1080p\nDune 2021 720p x265\n\n🚫➠ ᴅᴏɴᴛ ᴜsᴇ ':_(,./)&-", True)
     elif query.data == "start":                        
         buttons = [[
             InlineKeyboardButton('💯 𝙷𝙾𝚆 𝚃𝙾 𝚄𝚂𝙴 & كيفية الاستخدام 💯', callback_data='how')
