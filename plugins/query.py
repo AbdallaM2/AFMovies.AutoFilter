@@ -518,7 +518,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "pages":
         await query.answer("🤨 Curiosity is a little more, isn't it? 😁", show_alert=True)
     elif query.data == 'ᴍᴏᴠɪᴇs':
-        await query.answer("ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ꜰᴏʀᴍᴀᴛ\nɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴀ ᴍᴏᴠɪᴇ ꜰᴏʟʟᴏᴡ ᴛʜᴇ ꜰᴏʀᴍᴀᴛ\n(لـلـبــحـث عـن فيلـم اِتـبـع الـتـنـسـيـق الآتــي)\nThe Godfather 1972\nThe Dark Knight 2008 1080p\nDune 2021 720p x265\n\n🚫➠ ᴅᴏɴᴛ ᴜsᴇ ':_(,./)&-/nبدون استخدام اي رمز", True)
+        await query.answer("ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ꜰᴏʀᴍᴀᴛ\nɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴀ ᴍᴏᴠɪᴇ ꜰᴏʟʟᴏᴡ ᴛʜᴇ ꜰᴏʀᴍᴀᴛ\n(لـلـبــحـث عـن فيلـم اِتـبـع الـتـنـسـيـق الآتــي)\nThe Godfather 1972\nThe Dark Knight 2008 1080p", True)
     elif query.data == 'ɪɴꜰᴏ':
         await query.answer("           ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛ ꜰᴏʀᴍᴀᴛ\n              ▔▔▔▔▔▔▔▔▔\nɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴀ ᴍᴏᴠɪᴇ ꜰᴏʟʟᴏᴡ ᴛʜᴇ ꜰᴏʀᴍᴀᴛ\n(لـلـبــحـث عـن فيلـم اِتـبـع الـتـنـسـيـق الآتــي)\nThe Godfather 1972\nThe Dark Knight 2008 1080p\nDune 2021 720p x265\n\n🚫➠ ᴅᴏɴᴛ ᴜsᴇ ':_(,./)&-/nبدون استخدام اي رمز", True)
     elif query.data == "start":                        
