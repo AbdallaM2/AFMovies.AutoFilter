@@ -60,7 +60,7 @@ BUTTON_LOCK = environ.get("BUTTON_LOCK", "True")
 
 # url shortner
 SHORT_URL = environ.get("SHORT_URL")
-SHORT_API = environ.get('SHORT_API','5bdf593a646913a46563062cd306bb66a9ae2b9c')
+SHORT_API = environ.get('SHORT_API', '5bdf593a646913a46563062cd306bb66a9ae2b9c')
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
