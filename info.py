@@ -59,8 +59,8 @@ G_FILTER = bool(environ.get("G_FILTER", True))
 BUTTON_LOCK = environ.get("BUTTON_LOCK", "False")
 
 # url shortner
-SHORT_URL = environ.get('SHORT_URL', 'https://cuty.io')
-SHORT_API = environ.get('SHORT_API', 'b0ea3d3c43dc6b5534d723c09')
+SHORT_URL = environ.get('SHORT_URL', 'https://short-jambo.com')
+SHORT_API = environ.get('SHORT_API', '5bdf593a646913a46563062cd306bb66a9ae2b9c')
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
