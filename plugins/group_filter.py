@@ -139,7 +139,7 @@ async def auto_filter(client, msg, spoll=False):
     )
     btn.insert(11,
         [
-            InlineKeyboardButton(text="⚡Shorten Link & تخطي الرابط⚡", url='t.me/ArrowFlixBot')
+            InlineKeyboardButton(text="⚡Shorten Link & تخطي الرابط⚡", url='t.me/ArrowFlix2Bot?start=ZmlsZV9CQUFEQkFBRGdROEFBazV5TVZEbFVyT1dtUTVBN0JZRQ')
         ]
     )
 
