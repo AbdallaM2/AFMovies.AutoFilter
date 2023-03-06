@@ -64,6 +64,11 @@ async def next_page(bot, query):
                 InlineKeyboardButton(f'ɪɴꜰᴏ', 'ᴍᴏᴠɪᴇs')
         ]
     )
+    btn.insert(11,
+        [
+            InlineKeyboardButton(text="⚡Shorten Link & تخطي الرابط⚡", url='t.me/ArrowFlixBot')
+        ]
+    )
 
     if 0 < offset <= 10:
         off_set = 0
@@ -158,6 +163,11 @@ async def pm_next_page(bot, query):
         [
                 InlineKeyboardButton(f'ᴍᴏᴠɪᴇs', 'ɪɴꜰᴏ'),
                 InlineKeyboardButton(f'ɪɴꜰᴏ', 'ᴍᴏᴠɪᴇs')
+        ]
+    )
+    btn.insert(11,
+        [
+            InlineKeyboardButton(text="⚡Shorten Link & تخطي الرابط⚡", url='t.me/ArrowFlixBot')
         ]
     )
 
