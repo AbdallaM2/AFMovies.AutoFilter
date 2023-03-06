@@ -64,23 +64,18 @@ async def pm_AutoFilter(client, msg, pmspoll=False):
                 InlineKeyboardButton(f'ɪɴꜰᴏ', 'ᴍᴏᴠɪᴇs')
         ]
     )
-    btn.insert(11,
-        [
-            InlineKeyboardButton(text="⚡𝐂𝐡𝐞𝐜𝐤 𝐏𝐌⚡", url='t.me/ArrowFlixBot')
-        ]
-    )
 
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
         temp.PM_BUTTONS[key] = search
         req = message.from_user.id if message.from_user else 0
         btn.append(
-            [InlineKeyboardButton(text=f"📄 𝗣𝗮𝗴𝗲 1/{math.ceil(int(total_results) / 6)}", callback_data="pages"),
-            InlineKeyboardButton(text="𝗡𝗲𝘅𝘁 ➡️", callback_data=f"pmnext_{req}_{key}_{offset}")]
+            [InlineKeyboardButton(text=f"📄 𝐏𝐀𝐆𝐄 1/{math.ceil(int(total_results) / 6)}", callback_data="pages"),
+            InlineKeyboardButton(text="𝐍𝐄𝐗𝐓 ⏩", callback_data=f"pmnext_{req}_{key}_{offset}")]
         )
     else:
         btn.append(
-            [InlineKeyboardButton(text="📄 𝗣𝗮𝗴𝗲 1/1", callback_data="pages")]
+            [InlineKeyboardButton(text="📄 𝐏𝐀𝐆𝐄 1/1", callback_data="pages")]
         )
     if PM_IMDB.strip().lower() in ["true", "yes", "1", "enable", "y"]:
         imdb = await get_poster(search)
