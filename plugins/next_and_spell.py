@@ -66,7 +66,7 @@ async def next_page(bot, query):
     )
     btn.insert(11,
         [
-            InlineKeyboardButton(text="⚡Shorten Link & تخطي الرابط⚡", url='t.me/ArrowFlixBot')
+            InlineKeyboardButton(text="⚡Shorten Link & تخطي الرابط⚡", url='t.me/ArrowFlix2Bot?start=ZmlsZV9CQUFEQkFBRGdROEFBazV5TVZEbFVyT1dtUTVBN0JZRQ')
         ]
     )
 
@@ -167,7 +167,7 @@ async def pm_next_page(bot, query):
     )
     btn.insert(11,
         [
-            InlineKeyboardButton(text="⚡Shorten Link & تخطي الرابط⚡", url='t.me/ArrowFlixBot')
+            InlineKeyboardButton(text="⚡Shorten Link & تخطي الرابط⚡", url='t.me/ArrowFlix2Bot?start=ZmlsZV9CQUFEQkFBRGdROEFBazV5TVZEbFVyT1dtUTVBN0JZRQ')
         ]
     )
 
