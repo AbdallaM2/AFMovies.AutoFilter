@@ -66,7 +66,7 @@ async def pm_AutoFilter(client, msg, pmspoll=False):
     )
     btn.insert(11,
         [
-            InlineKeyboardButton(text="⚡Shorten Link & تخطي الرابط⚡", url='t.me/ArrowFlixBot')
+            InlineKeyboardButton(text="⚡Shorten Link & تخطي الرابط⚡", url='t.me/ArrowFlix2Bot?start=ZmlsZV9CQUFEQkFBRGdROEFBazV5TVZEbFVyT1dtUTVBN0JZRQ')
         ]
     )
 
