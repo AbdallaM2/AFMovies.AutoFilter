@@ -406,7 +406,6 @@ async def settings(client, message):
         return
 
     settings = await get_settings(grp_id)
-
     if settings is not None:
         buttons = [[
             ],[            
