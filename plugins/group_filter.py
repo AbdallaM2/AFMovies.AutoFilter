@@ -137,11 +137,7 @@ async def auto_filter(client, msg, spoll=False):
                 InlineKeyboardButton(f'ɪɴꜰᴏ', 'ᴍᴏᴠɪᴇs')
         ]
     )
-    btn.insert(11,
-        [
-            InlineKeyboardButton(text="⚡Shorten Link & طريقة تخطي الرابط⚡", url='t.me/ArrowFlix2Bot?start=BATCH-BQADBAADjA8AAjBskVD1uTE8C1-dHBYE')
-        ]
-    )
+
 
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
